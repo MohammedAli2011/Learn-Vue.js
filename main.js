@@ -7,16 +7,42 @@ createApp({
             // age: 15,
             // link: "https://mohammed.com/",
             // img: "./assets/images/mohammed.jpg",
-            num: 0,
+
+            /*                       break                          */
+
+            // num: 0,
+
+            /*                       break                          */
+
+            // sendTo: "",
+            // sender: "",
+            // message: "",
+
+            /*                       break                          */
+
+
         };
     },
+
     methods: {
         // sayHello (name) {
         //     return `hello ${name}`;
         // },
 
-        clickFunc () {
-            this.num++
-        }
-    }
-}).mount("#parent")
+        /*                       break                          */
+
+        // clickFunc () {
+        //     this.num++;
+        // },
+
+        /*                       break                          */
+
+        // transport () {
+        //     console.log("transport had done");
+        // },
+
+        /*                       break                          */
+
+
+    },
+}).mount("#parent");
