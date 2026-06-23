@@ -1,83 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>learn vue.js 3</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <div id="parent">
-<!--        <h1>Hello I am {{name}}</h1>-->
-<!--        <p>My Age Is {{age}}</p>-->
-<!--        <p>{{sayHello(name)}}</p>-->
-<!--        <a :href="link">Memo</a>-->
-<!--        <br>-->
-<!--        <br>-->
-<!--        <img :src="img" alt="img">-->
-<!--        <button @dblclick="clickFunc">click</button> -->
+    <head>
+        <meta charset="UTF-8">
+        <title>learn vue.js 3</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
 
-        <!--                            break                                 -->
+    <body>
+        <div id="parent">
+            <!--        <h1>Hello I am {{name}}</h1>-->
+            <!--        <p>My Age Is {{age}}</p>-->
+            <!--        <p>{{sayHello(name)}}</p>-->
+            <!--        <a :href="link">Memo</a>-->
+            <!--        <br>-->
+            <!--        <br>-->
+            <!--        <img :src="img" alt="img">-->
+            <!--        <button @dblclick="clickFunc">click</button> -->
 
-<!--        <h1>counter is {{num}}</h1>-->
-<!--        <button @click="clickFunc">counter + 1</button>-->
+            <!--                            break                                 -->
 
-        <!--                            break                                 -->
+            <!--        <h1>counter is {{num}}</h1>-->
+            <!--        <button @click="clickFunc">counter + 1</button>-->
 
-<!--        <a href="https://www.google.com">google</a>-->
-<!--        <br>-->
-<!--        <a href="https://www.google.com" @click.prevent>google</a>-->
-<!--        <hr>-->
-<!--        <a href="#" @click="transport">transport</a>-->
-<!--        <br>-->
-<!--        <a href="#" @click.once="transport">transport</a>-->
+            <!--                            break                                 -->
 
-        <!--                            break                                 -->
+            <!--        <a href="https://www.google.com">google</a>-->
+            <!--        <br>-->
+            <!--        <a href="https://www.google.com" @click.prevent>google</a>-->
+            <!--        <hr>-->
+            <!--        <a href="#" @click="transport">transport</a>-->
+            <!--        <br>-->
+            <!--        <a href="#" @click.once="transport">transport</a>-->
 
-<!--            <label>To</label>-->
-<!--            <input type="text" v-model="sendTo" id="inp1">-->
+            <!--                            break                                 -->
 
-<!--        <br>-->
-<!--        <br>-->
+            <!--            <label>To</label>-->
+            <!--            <input type="text" v-model="sendTo" id="inp1">-->
 
-<!--            <label>From</label>-->
-<!--            <input type="text" v-model="sender" id="inp2">-->
+            <!--        <br>-->
+            <!--        <br>-->
 
-<!--        <br>-->
-<!--        <br>-->
+            <!--            <label>From</label>-->
+            <!--            <input type="text" v-model="sender" id="inp2">-->
 
-<!--            <label>Message</label>-->
-<!--            <textarea type="text" v-model="message" id="inp3"></textarea>-->
+            <!--        <br>-->
+            <!--        <br>-->
 
-<!--        <br>-->
-<!--        <br>-->
-<!--        <br>-->
+            <!--            <label>Message</label>-->
+            <!--            <textarea type="text" v-model="message" id="inp3"></textarea>-->
 
-<!--        <div class="writeAnEmail">-->
-<!--            <label for="inp1">to:  {{sendTo}}</label>-->
+            <!--        <br>-->
+            <!--        <br>-->
+            <!--        <br>-->
 
-<!--            <br>-->
-<!--            <br>-->
+            <!--        <div class="writeAnEmail">-->
+            <!--            <label for="inp1">to:  {{sendTo}}</label>-->
 
-<!--            <label for="inp2">from:  {{sender}}</label>-->
+            <!--            <br>-->
+            <!--            <br>-->
 
-<!--            <br>-->
-<!--            <br>-->
-<!--            <br>-->
-<!--            <br>-->
-<!--            <br>-->
-<!--            <br>-->
+            <!--            <label for="inp2">from:  {{sender}}</label>-->
 
-<!--            <label for="inp3">-->
-<!--            <span class="">{{message}}</span>-->
-<!--            </label>-->
-<!--        </div>-->
+            <!--            <br>-->
+            <!--            <br>-->
+            <!--            <br>-->
+            <!--            <br>-->
+            <!--            <br>-->
+            <!--            <br>-->
 
-        <!--                            break                                 -->
+            <!--            <label for="inp3">-->
+            <!--            <span class="">{{message}}</span>-->
+            <!--            </label>-->
+            <!--        </div>-->
+
+            <!--                            break                                 -->
+
+            <!--        <h1 class="numOne">Num One is {{numOne}}</h1>-->
+            <!--        <h1 class="numOne">Changed Num One is {{changeNumOne}}</h1>-->
+            <!--        <button class="numOneChange" @click="numOne++">Change Num One</button>-->
+            <!--        <h1 class="numTwo">Num Two is {{numTwo}}</h1>-->
+            <!--        <h1 class="changedNumTwo">Changed Num Two is {{changeNumTwo}}</h1>-->
+            <!--        <button class="numTwoChange" @click="numTwo++">Change Num Two</button>-->
+
+            <!--                            break                                 -->
+
+            <!--    <h1 :class="color">hello world</h1>-->
+            <!--    <input type="text" v-model="color">-->
+
+            <!--                            break                                 -->
+
+            <!--    <form action="" @submit.prevent>-->
+            <!--        <h1 v-if="age === 13">I am Ahmed, I am {{age}} Years old</h1>-->
+            <!--        <h1 v-else-if="age === 15">I am Mohammed, I am {{age}} Years old</h1>-->
+            <!--        <h1 v-else-if="age === 40">I am Ali, I am {{age}} Years old</h1>-->
+            <!--        <h1 v-else>I am nasr, I am {{age}} Years old</h1>-->
+
+            <!--        <h2 class="" v-if="age < 6">You Are baby</h2>-->
+            <!--        <h2 class="" v-else-if="age <= 10">You Are child</h2>-->
+            <!--        <h2 class="" v-else-if="age < 20">You Are Teenager</h2>-->
+            <!--        <h2 class="" v-else>You Are Old Man</h2>-->
+            <!--        <input type="submit" value="age++" @click="age++">-->
+            <!--    </form>-->
+
+            <!--                            break                                 -->
+
+            <!--        <h1 class="" v-for="student in students" :key="student.id">-->
+            <!--            <p class="">I am {{student.name}}</p>-->
+            <!--            <p class="">I am {{student.age}} Years old</p>-->
+            <!--            <p class="">My Id Is {{student.id}}</p>-->
+            <!--            <hr>-->
+            <!--        </h1>-->
+
+            <!--                            break                                 -->
+
+            <!--    <input type="number" ref="my_input">-->
+            <!--    <h1 class="" ref="my_h1">my age is {{age}}</h1>-->
+            <!--    <button @click="replace_age">click here</button>-->
+
+            <!--                            break                                 -->
 
 
-    </div>
+        </div>
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="./main.js"></script>
-</body>
+        <!--<div id="parent">-->
+        <!--    <h2 class="">{{age}}</h2>-->
+        <!--</div>-->
+
+        <!--<div id="parent2">-->
+        <!--    <button @click="agePlus">click</button>-->
+        <!--</div>-->
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="./main.js"></script>
+    </body>
 </html>
