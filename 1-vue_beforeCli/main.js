@@ -1,5 +1,19 @@
 const {createApp} = Vue;
 
+// const my_component = {
+//     template: `<h2>Hello World</h2>
+//     <h2>My name is {{name}}</h2>
+//     <h2>My age is {{age}}</h2>
+// `,
+//
+//     data() {
+//         return {
+//             name: "mohammed",
+//             age: 15,
+//         };
+//     },
+// };
+
 createApp({
     data() {
         return {
@@ -61,6 +75,10 @@ createApp({
         };
     },
 
+    // components: {
+    //     my_component,
+    // },
+
     methods: {
         // sayHello (name) {
         //     return `hello ${name}`;
@@ -86,7 +104,7 @@ createApp({
         //     this.age = +(this.$refs.my_input.value);
         //     console.log(this.age);
         //     console.log(typeof this.age);
-        // }
+        // },
 
         /*                       break                          */
 
@@ -102,7 +120,7 @@ createApp({
         // changeNumTwo () {
         //     console.log("two");
         //     return this.numTwo + 10;
-        // }
+        // },
 
         /*                       break                          */
 
