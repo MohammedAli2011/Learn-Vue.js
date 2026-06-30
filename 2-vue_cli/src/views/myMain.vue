@@ -14,17 +14,30 @@
       :students="students"
       @updateActive="changeActive($event)"
     />
+
+    <hr />
+
+    <life-cycle />
+    <my-Slot>
+      <template #myTitle>
+        <h1>this is my slot</h1>
+      </template>
+    </my-Slot>
   </div>
 </template>
 
 <script>
 import sts from "@/components/stShow.vue";
+import lifeCycle from "@/components/lifeCycle.vue";
+import mySlot from "@/components/mySlot.vue";
 
 export default {
   name: "MyMain",
 
   components: {
     sts,
+    lifeCycle,
+    mySlot,
   },
 
   data() {

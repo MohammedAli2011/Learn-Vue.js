@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <ul class="">
-      <li class="" v-for="(student, i) in students" :key="i">{{ student }}</li>
+      <li v-for="(student, i) in students" :key="i" class="">{{ student }}</li>
     </ul>
     <button @click="sts.shift()">click</button>
 
@@ -22,12 +22,15 @@ export default {
       type: Array,
       required: true,
     },
+
     inActive: {
       type: Boolean,
       required: true,
     },
   },
+
   emits: ["updateActive"],
+
   data() {
     return {
       sts: this.students,
