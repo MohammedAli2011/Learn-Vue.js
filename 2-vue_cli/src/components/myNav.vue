@@ -71,7 +71,7 @@ nav {
   }
 }
 
-.buttons button {
+.buttons {
   button {
     padding: 10px;
     margin: 5px;
