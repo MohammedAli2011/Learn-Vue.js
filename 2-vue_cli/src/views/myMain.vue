@@ -231,7 +231,7 @@
   <div>
     <div class="container">
       <!--suppress VueUnrecognizedDirective -->
-      <p v-max-width="1000" class="">
+      <p v-max-hight="10" v-max-width="1000" class="">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
         architecto, dignissimos, dolores est explicabo illo laboriosam magni
         mollitia repudiandae sit soluta unde? A iure nobis qui quibusdam rem
@@ -242,7 +242,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  directives: {
+    maxHight(el, info) {
+      el.style.height = info.value + "px";
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
