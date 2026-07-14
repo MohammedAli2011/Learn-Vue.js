@@ -6,8 +6,11 @@
 
     <div class="links">
       <ul>
-        <li v-for="link in links" :key="link">
-          <a href="" title="link">{{ link }}</a>
+        <li class="">
+          <router-link to="/">home</router-link>
+        </li>
+        <li class="">
+          <router-link to="/about">about</router-link>
         </li>
       </ul>
     </div>
@@ -24,9 +27,7 @@
 <script>
 export default {
   data() {
-    return {
-      links: ["link1", "link2", "link3", "link4", "link5"],
-    };
+    return {};
   },
 };
 </script>

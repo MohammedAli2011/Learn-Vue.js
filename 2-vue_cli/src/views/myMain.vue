@@ -225,30 +225,49 @@
 <!--};-->
 <!--</script>-->
 
+<!--<template>-->
+<!--  <h1>this is my main page</h1>-->
+
+<!--  <div>-->
+<!--    <div class="container">-->
+<!--      &lt;!&ndash;suppress VueUnrecognizedDirective &ndash;&gt;-->
+<!--      <p class="">-->
+<!--        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet-->
+<!--        architecto, dignissimos, dolores est explicabo illo laboriosam magni-->
+<!--        mollitia repudiandae sit soluta unde? A iure nobis qui quibusdam rem-->
+<!--        temporibus voluptatum!-->
+<!--      </p>-->
+<!--    </div>-->
+
+<!--    <ul style="list-style-type: none">-->
+<!--      <li v-for="user in users" :key="user.id">-->
+<!--        <h2>{{ user.firstName }} {{ user.lastName }}</h2>-->
+<!--        <p>{{ user.age }}</p>-->
+<!--        <p>{{ user.id }}</p>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--</template>-->
+
+<!--<script>-->
+<!--import myMixin from "@/mixins/myMixin";-->
+
+<!--export default {-->
+<!--  // directives: {-->
+<!--  //   maxHight(el, info) {-->
+<!--  //     el.style.height = info.value + "px";-->
+<!--  //   },-->
+<!--  // },-->
+<!--  mixins: [myMixin],-->
+<!--};-->
+<!--</script>-->
+
 <template>
   <h1>this is my main page</h1>
-
-  <div>
-    <div class="container">
-      <!--suppress VueUnrecognizedDirective -->
-      <p v-max-hight="10" v-max-width="1000" class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-        architecto, dignissimos, dolores est explicabo illo laboriosam magni
-        mollitia repudiandae sit soluta unde? A iure nobis qui quibusdam rem
-        temporibus voluptatum!
-      </p>
-    </div>
-  </div>
 </template>
 
 <script>
-export default {
-  directives: {
-    maxHight(el, info) {
-      el.style.height = info.value + "px";
-    },
-  },
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
