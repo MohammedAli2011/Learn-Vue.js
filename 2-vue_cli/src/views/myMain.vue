@@ -264,6 +264,13 @@
 
 <template>
   <h1>this is my main page</h1>
+  <button
+    @click="
+      $router.push({ name: 'aboutPage', params: { username: 'aboutPage' } })
+    "
+  >
+    go to about route
+  </button>
 </template>
 
 <script>

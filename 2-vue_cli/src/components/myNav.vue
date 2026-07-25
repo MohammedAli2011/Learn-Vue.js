@@ -6,11 +6,25 @@
 
     <div class="links">
       <ul>
-        <li class="">
-          <router-link to="/">home</router-link>
-        </li>
-        <li class="">
-          <router-link to="/about">about</router-link>
+        <li v-for="link in this.routes" :key="link.name">
+          <router-link
+            v-if="link.name === 'aboutPage'"
+            :to="{
+              name: link.name,
+              params: { username: link.name },
+            }"
+          >
+            {{ link.meta.title }}
+          </router-link>
+
+          <router-link
+            v-else
+            :to="{
+              name: link.name,
+            }"
+          >
+            {{ link.meta.title }}
+          </router-link>
         </li>
       </ul>
     </div>
@@ -25,9 +39,21 @@
 </template>
 
 <script>
+import aboutPage from "@/views/aboutPage.vue";
+
 export default {
+  computed: {
+    aboutPage() {
+      return aboutPage;
+    },
+  },
   data() {
-    return {};
+    return {
+      routes: [],
+    };
+  },
+  mounted() {
+    this.routes = this.$router.options.routes;
   },
 };
 </script>
