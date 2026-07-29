@@ -271,6 +271,7 @@
   >
     go to about route
   </button>
+  <button @click="console.log(this.$route)">click</button>
 </template>
 
 <script>
