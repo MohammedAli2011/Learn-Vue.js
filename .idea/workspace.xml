@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3427dde8-af15-4838-a4fe-001019d5d5cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/components/the component.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/mixins/counter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/shims-vue.d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/HomeView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/components/theComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/components/theComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Options API Component" />
         <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.341" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.9437.145" />
       </set>
     </attachedChunks>
   </component>
@@ -134,7 +120,11 @@
       <workItem from="1784983888530" duration="4329000" />
       <workItem from="1785312826687" duration="3101000" />
       <workItem from="1785419904046" duration="1607000" />
-      <workItem from="1785495613106" duration="5471000" />
+      <workItem from="1785495613106" duration="5920000" />
+      <workItem from="1785587418640" duration="2003000" />
+      <workItem from="1786096525928" duration="259000" />
+      <workItem from="1786100256245" duration="5032000" />
+      <workItem from="1786338298856" duration="763000" />
     </task>
     <servers />
   </component>
@@ -157,8 +147,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="NONE" type="javascript">
           <url>file://$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue</url>
-          <line>1</line>
-          <properties lambdaOrdinal="-1" />
+          <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
