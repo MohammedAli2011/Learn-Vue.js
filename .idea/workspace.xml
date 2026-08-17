@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3427dde8-af15-4838-a4fe-001019d5d5cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/mixins/counter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/components/theComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/components/theComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +122,8 @@
       <workItem from="1785587418640" duration="2003000" />
       <workItem from="1786096525928" duration="259000" />
       <workItem from="1786100256245" duration="5032000" />
-      <workItem from="1786338298856" duration="763000" />
+      <workItem from="1786338298856" duration="4738000" />
+      <workItem from="1786791429796" duration="1425000" />
     </task>
     <servers />
   </component>
@@ -147,7 +146,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="NONE" type="javascript">
           <url>file://$PROJECT_DIR$/composition_api/vue_composition-cli/src/views/homePage.vue</url>
-          <line>2</line>
+          <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

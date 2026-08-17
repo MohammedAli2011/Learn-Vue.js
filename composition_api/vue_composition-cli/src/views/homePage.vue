@@ -1,4 +1,3 @@
-<script setup></script>
 <template>
   <!--  <h1>Hello World</h1>-->
 
@@ -12,17 +11,32 @@
 
   <!--  <TheComponent @handle-click="executeClick()" />-->
   <!--  <h2 v-color="'red'">hello</h2>-->
-  <!--  :userAge="userage" :userName="firstname"-->
+  <!--  :userAge="userAge" :userName="firstName"-->
 
-  <h1>{{ counter.value }}</h1>
+  <h1>{{ counter }}</h1>
   <button @click="increase()">increase</button>
   <button @click="decrease()">decrease</button>
 </template>
 
 <script setup>
 import counterFunc from "@/mixins/counter";
+import { onBeforeMount, onBeforeUpdate, onMounted, onUpdated } from "vue";
+
+onBeforeMount(() => {
+  console.log("onBeforeMount");
+});
+onMounted(() => {
+  console.log("onMounted");
+});
+onBeforeUpdate(() => {
+  console.log("onBeforeUpdate");
+});
+onUpdated(() => {
+  console.log("onUpdated");
+});
 
 let { counter, increase, decrease } = counterFunc;
+
 // import TheComponent from "@/components/theComponent.vue";
 // // import { useRoute, useRouter } from "vue-router";
 // // import { ref } from "vue";
@@ -43,9 +57,9 @@ let { counter, increase, decrease } = counterFunc;
 // console.log(router);
 // console.log(route);
 //
-// let firstname = ref("Mohammed");
+// let firstName = ref("Mohammed");
 // let lastName = ref("Ali");
-// let userage = ref(15);
+// let userAge = ref(15);
 // let fullName = ref(1);
 // let incAge = computed(() => {
 //   return age.value + 5;
